@@ -150,12 +150,34 @@ public class input_course_information extends AppCompatActivity {
         TextView grid_course_name = (TextView) findViewById(R.id.r1_c1);
         TextView grid_course_weight = (TextView) findViewById(R.id.r1_c2);
         TextView grid_is_major = (TextView) findViewById(R.id.r1_c3);
-        grid_course_name.setText("");
-        grid_course_weight.setText("");
-        grid_is_major.setText("");
-        grid_course_name.setVisibility(View.INVISIBLE);
-        grid_course_weight.setVisibility(View.INVISIBLE);
-        grid_is_major.setVisibility(View.INVISIBLE);
+        TextView grid_course_name_2 = (TextView) findViewById(R.id.r2_c1);
+        TextView grid_course_weight_2 = (TextView) findViewById(R.id.r2_c2);
+        TextView grid_is_major_2 = (TextView) findViewById(R.id.r2_c3);
+        TextView grid_course_name_3 = (TextView) findViewById(R.id.r3_c1);
+        TextView grid_course_weight_3 = (TextView) findViewById(R.id.r3_c2);
+        TextView grid_is_major_3 = (TextView) findViewById(R.id.r3_c3);
+        TextView grid_course_name_4 = (TextView) findViewById(R.id.r4_c1);
+        TextView grid_course_weight_4 = (TextView) findViewById(R.id.r4_c2);
+        TextView grid_is_major_4 = (TextView) findViewById(R.id.r4_c3);
+        TextView grid_course_name_5 = (TextView) findViewById(R.id.r5_c1);
+        TextView grid_course_weight_5 = (TextView) findViewById(R.id.r5_c2);
+        TextView grid_is_major_5 = (TextView) findViewById(R.id.r5_c3);
+
+        /* Reconfiguring display to show object below following delete. */
+
+        grid_course_name.setText(grid_course_name_2.getText());
+        grid_course_weight.setText(grid_course_weight_2.getText());
+        grid_is_major.setText(grid_is_major_2.getText());
+        grid_course_name_2.setText(grid_course_name_3.getText());
+        grid_course_weight_2.setText(grid_course_weight_2.getText());
+        grid_is_major_2.setText(grid_is_major_3.getText());
+        grid_course_name_3.setText(grid_course_name_4.getText());
+        grid_course_weight_3.setText(grid_course_weight_4.getText());
+        grid_is_major_3.setText(grid_is_major_4.getText());
+        grid_course_name_4.setText(grid_course_name_5.getText());
+        grid_course_weight_4.setText(grid_course_weight_5.getText());
+        grid_is_major_4.setText(grid_is_major_5.getText());
+        course_count--;
 
     }
 
@@ -163,36 +185,64 @@ public class input_course_information extends AppCompatActivity {
         TextView grid_course_name_2 = (TextView) findViewById(R.id.r2_c1);
         TextView grid_course_weight_2 = (TextView) findViewById(R.id.r2_c2);
         TextView grid_is_major_2 = (TextView) findViewById(R.id.r2_c3);
-        grid_course_name_2.setText("");
-        grid_course_weight_2.setText("");
-        grid_is_major_2.setText("");
-        grid_course_name_2.setVisibility(View.INVISIBLE);
-        grid_course_weight_2.setVisibility(View.INVISIBLE);
-        grid_is_major_2.setVisibility(View.INVISIBLE);
+        TextView grid_course_name_3 = (TextView) findViewById(R.id.r3_c1);
+        TextView grid_course_weight_3 = (TextView) findViewById(R.id.r3_c2);
+        TextView grid_is_major_3 = (TextView) findViewById(R.id.r3_c3);
+        TextView grid_course_name_4 = (TextView) findViewById(R.id.r4_c1);
+        TextView grid_course_weight_4 = (TextView) findViewById(R.id.r4_c2);
+        TextView grid_is_major_4 = (TextView) findViewById(R.id.r4_c3);
+        TextView grid_course_name_5 = (TextView) findViewById(R.id.r5_c1);
+        TextView grid_course_weight_5 = (TextView) findViewById(R.id.r5_c2);
+        TextView grid_is_major_5 = (TextView) findViewById(R.id.r5_c3);
+
+        /* Reconfiguring displays to show object below. */
+        grid_course_name_2.setText(grid_course_name_3.getText());
+        grid_course_weight_2.setText(grid_course_weight_2.getText());
+        grid_is_major_2.setText(grid_is_major_3.getText());
+        grid_course_name_3.setText(grid_course_name_4.getText());
+        grid_course_weight_3.setText(grid_course_weight_4.getText());
+        grid_is_major_3.setText(grid_is_major_4.getText());
+        grid_course_name_4.setText(grid_course_name_5.getText());
+        grid_course_weight_4.setText(grid_course_weight_5.getText());
+        grid_is_major_4.setText(grid_is_major_5.getText());
+        course_count--;
     }
 
     public void remove_row_3(View view) {
         TextView grid_course_name_3 = (TextView) findViewById(R.id.r3_c1);
         TextView grid_course_weight_3 = (TextView) findViewById(R.id.r3_c2);
         TextView grid_is_major_3 = (TextView) findViewById(R.id.r3_c3);
-        grid_course_name_3.setText("");
-        grid_course_weight_3.setText("");
-        grid_is_major_3.setText("");
-        grid_course_name_3.setVisibility(View.INVISIBLE);
-        grid_course_weight_3.setVisibility(View.INVISIBLE);
-        grid_is_major_3.setVisibility(View.INVISIBLE);
+        TextView grid_course_name_4 = (TextView) findViewById(R.id.r4_c1);
+        TextView grid_course_weight_4 = (TextView) findViewById(R.id.r4_c2);
+        TextView grid_is_major_4 = (TextView) findViewById(R.id.r4_c3);
+        TextView grid_course_name_5 = (TextView) findViewById(R.id.r5_c1);
+        TextView grid_course_weight_5 = (TextView) findViewById(R.id.r5_c2);
+        TextView grid_is_major_5 = (TextView) findViewById(R.id.r5_c3);
+
+        /* Reconfiguring TextViews to display objects below if delete command is given. */
+        grid_course_name_3.setText(grid_course_name_4.getText());
+        grid_course_weight_3.setText(grid_course_weight_4.getText());
+        grid_is_major_3.setText(grid_is_major_4.getText());
+        grid_course_name_4.setText(grid_course_name_5.getText());
+        grid_course_weight_4.setText(grid_course_weight_5.getText());
+        grid_is_major_4.setText(grid_is_major_5.getText());
+
+        course_count--;
     }
 
     public void remove_row_4(View view) {
         TextView grid_course_name_4 = (TextView) findViewById(R.id.r4_c1);
         TextView grid_course_weight_4 = (TextView) findViewById(R.id.r4_c2);
         TextView grid_is_major_4 = (TextView) findViewById(R.id.r4_c3);
-        grid_course_name_4.setText("");
-        grid_course_weight_4.setText("");
-        grid_is_major_4.setText("");
-        grid_course_name_4.setVisibility(View.INVISIBLE);
-        grid_course_weight_4.setVisibility(View.INVISIBLE);
-        grid_is_major_4.setVisibility(View.INVISIBLE);
+        TextView grid_course_name_5 = (TextView) findViewById(R.id.r5_c1);
+        TextView grid_course_weight_5 = (TextView) findViewById(R.id.r5_c2);
+        TextView grid_is_major_5 = (TextView) findViewById(R.id.r5_c3);
+
+        /* Moves text from fifth location to fourth */
+        grid_course_name_4.setText(grid_course_name_5.getText());
+        grid_course_weight_4.setText(grid_course_weight_5.getText());
+        grid_is_major_4.setText(grid_is_major_5.getText());
+        course_count--;
     }
 
     public void remove_row_5(View view) {
@@ -205,6 +255,13 @@ public class input_course_information extends AppCompatActivity {
         grid_course_name_5.setVisibility(View.INVISIBLE);
         grid_course_weight_5.setVisibility(View.INVISIBLE);
         grid_is_major_5.setVisibility(View.INVISIBLE);
+        course_count--;
+    }
+
+    public void save_course_data(View view) {
+        
+
+
     }
 }
 

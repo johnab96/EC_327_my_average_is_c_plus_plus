@@ -338,6 +338,16 @@
         android:layout_toRightOf="@+id/course_information_grid_layout"
         android:layout_toEndOf="@+id/course_information_grid_layout" />
 
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="save_course_data"
+        android:src="@drawable/save_26"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/course_information_grid_layout" />
+
 </RelativeLayout>
 
 
