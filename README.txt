@@ -1,4 +1,14 @@
-The goal of this application was to take user input in the form of grades. Following this pertinent calculations
-such as major GPA estimation and display, estimated course performance to recieve "N" grade. This was intended
-to be done through the use of sharedPreferences; however due to design issues our ability to transer data was limited
-due to scheduling and planning issues.
+Run Procedure:
+
+Open Enter Courses
+	- Here you will be able to enter the course name, credit hours, and click a checkbox to signify if it is
+	apart of your major. To add this to the list simply press the plus sign. To remove a listing press the trash
+	to remove the items. To save data to device click the save icon bar.
+	
+Open Enter Grades
+	- The same process above should be followed except for the categories assignment name replaces course name,
+		and credit hours are replaced by percentage correct. Once again click the plus sign to save, the trash can
+		to delete and save icon to save. Clear data clears data stored.
+		
+	Display GPAs
+		- No function, was supposed to display relevant GPA information.
